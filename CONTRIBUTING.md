@@ -1,7 +1,7 @@
 # CONTRIBUTING.md
-## How to Modify the dotnd System
+## How to Modify the jcs-agent-dna System
 
-This file governs how changes are made to dotnd — whether by a
+This file governs how changes are made to jcs-agent-dna — whether by a
 human or an agent.
 
 ---

@@ -1,5 +1,5 @@
 # EVOLUTION.md
-## dotnd System Evolution Log
+## jcs-agent-dna System Evolution Log
 
 Append only. Never edit previous entries. Every change to the
 system gets a one-line entry here.
@@ -7,7 +7,7 @@ system gets a one-line entry here.
 ---
 
 ## 2026-04-01
-- INIT: dotnd repo created with constitutional/strategic/tactical
+- INIT: jcs-agent-dna repo created with constitutional/strategic/tactical
   tier architecture
 - CONSTITUTIONAL: Added IDENTITY.md (fixed — who Jake is)
 - CONSTITUTIONAL: Added VOICE.md (fixed — writing style and tone)

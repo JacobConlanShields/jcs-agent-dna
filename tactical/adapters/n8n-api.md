@@ -1,5 +1,5 @@
 # n8n / API Adapter
-## How to load dotnd into API-based agents
+## How to load jcs-agent-dna into API-based agents
 
 API-based agents (n8n workflows, custom scripts, Telegram bots)
 do not discover files automatically. You load file contents into
@@ -12,7 +12,7 @@ and concatenate them into the system prompt:
 
 ```javascript
 // n8n Function node or HTTP Request nodes
-const baseUrl = 'https://raw.githubusercontent.com/YOURUSER/dotnd/main';
+const baseUrl = 'https://raw.githubusercontent.com/YOURUSER/jcs-agent-dna/main';
 
 const files = [
   'constitutional/IDENTITY.md',
@@ -47,5 +47,5 @@ order if you must trim:
 
 For the Telegram bot (@dabbod_bot), the system prompt is set in
 the n8n workflow that handles incoming messages. Update the workflow
-to fetch from the dotnd repo on each invocation, or cache locally
+to fetch from the jcs-agent-dna repo on each invocation, or cache locally
 and refresh on a schedule.
