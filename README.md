@@ -1,0 +1,107 @@
+# dotnd
+
+Agent configuration files for Jacob Conlan Shields.
+
+This repo is the source of truth for how AI agents operate on my
+behalf — across projects, across tools, across time. The files are
+plain markdown. The structure is designed to survive framework churn.
+
+---
+
+## Structure
+
+```
+dotnd/
+├── constitutional/        ← Who I am. Never changes.
+│   ├── IDENTITY.md        ← Values, aesthetic, philosophy
+│   └── VOICE.md           ← Writing style and tone
+├── strategic/             ← How agents operate. Changes slowly.
+│   ├── SOUL.md            ← Subconscious operating layer
+│   ├── AGENTS.md          ← Decision-making and operating rules
+│   ├── USER.md            ← How to work with me
+│   └── SPIRIT.md          ← Why we build what we build
+├── tactical/              ← Current state. Changes freely.
+│   ├── CONTEXT.md         ← Active projects, tools, timeline
+│   ├── CANON.md           ← Intellectual inputs and references
+│   ├── MEMORY.md          ← Running memory across sessions
+│   ├── adapters/          ← Per-agent-framework setup guides
+│   └── patterns/          ← Learned patterns and anti-patterns
+├── changelog/
+│   └── EVOLUTION.md       ← Append-only log of all changes
+├── CONTRIBUTING.md        ← Rules for modifying this system
+└── README.md              ← This file
+```
+
+---
+
+## Tiers
+
+**Constitutional** — defines identity and voice. Human-edit only.
+No agent PRs accepted against these files.
+
+**Strategic** — defines operating philosophy and working rules.
+Agents may propose changes via PR. Jake approves before merge.
+
+**Tactical** — defines current context, adapters, and patterns.
+Agents may self-merge additive-only changes. All changes logged.
+
+See CONTRIBUTING.md for full rules.
+
+---
+
+## Using in a Project
+
+Add as a git submodule:
+
+```bash
+git submodule add https://github.com/YOURUSER/dotnd .dotnd
+git commit -m "Add dotnd agent config"
+```
+
+Then configure your agent to read from `.dotnd/`. See
+`tactical/adapters/` for framework-specific setup.
+
+Update to latest:
+
+```bash
+cd .dotnd && git pull origin main && cd ..
+git add .dotnd && git commit -m "Update dotnd"
+```
+
+Clone a project with submodules:
+
+```bash
+git clone --recurse-submodules https://github.com/YOURUSER/project
+```
+
+---
+
+## Fallback: Pull Script
+
+If submodules are not available or practical:
+
+```bash
+#!/bin/bash
+BASE="https://raw.githubusercontent.com/YOURUSER/dotnd/main"
+mkdir -p .dotnd/{constitutional,strategic,tactical}
+curl -sL "$BASE/constitutional/IDENTITY.md" > .dotnd/constitutional/IDENTITY.md
+curl -sL "$BASE/constitutional/VOICE.md" > .dotnd/constitutional/VOICE.md
+curl -sL "$BASE/strategic/SOUL.md" > .dotnd/strategic/SOUL.md
+curl -sL "$BASE/strategic/AGENTS.md" > .dotnd/strategic/AGENTS.md
+curl -sL "$BASE/tactical/CONTEXT.md" > .dotnd/tactical/CONTEXT.md
+curl -sL "$BASE/tactical/CANON.md" > .dotnd/tactical/CANON.md
+```
+
+---
+
+## Philosophy
+
+The system is built on three premises:
+
+1. Markdown is universal. Every agent reads plain text.
+2. Identity is durable. Tools change. Who I am does not.
+3. Self-improvement is governed. Agents can make the system better.
+   They cannot make it different.
+
+The constitutional layer is the barbell — kept rigid so everything
+else can be flexible.

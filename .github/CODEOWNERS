@@ -1,0 +1,16 @@
+# CODEOWNERS — dotnd
+#
+# Constitutional files require Jake's explicit approval.
+# Strategic files require Jake's explicit approval.
+# Tactical files are less restricted — agents may propose and
+# self-merge additive-only changes.
+
+# Constitutional — human-only changes
+/constitutional/    @YOURUSER
+
+# Strategic — agent proposes, human approves
+/strategic/         @YOURUSER
+
+# Changelog — append-only, anyone can add
+# (but reviewed for accuracy)
+/changelog/         @YOURUSER
