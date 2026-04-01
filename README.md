@@ -11,7 +11,7 @@ plain markdown. The structure is designed to survive framework churn.
 ## Structure
 
 ```
-dotnd/
+jcs-agent-dna/
 ├── constitutional/        ← Who I am. Never changes.
 │   ├── IDENTITY.md        ← Values, aesthetic, philosophy
 │   └── VOICE.md           ← Writing style and tone
@@ -54,18 +54,18 @@ See CONTRIBUTING.md for full rules.
 Add as a git submodule:
 
 ```bash
-git submodule add https://github.com/YOURUSER/dotnd .dotnd
-git commit -m "Add dotnd agent config"
+git submodule add https://github.com/YOURUSER/jcs-agent-dna .jcs-agent-dna
+git commit -m "Add jcs-agent-dna agent config"
 ```
 
-Then configure your agent to read from `.dotnd/`. See
+Then configure your agent to read from `.jcs-agent-dna/`. See
 `tactical/adapters/` for framework-specific setup.
 
 Update to latest:
 
 ```bash
-cd .dotnd && git pull origin main && cd ..
-git add .dotnd && git commit -m "Update dotnd"
+cd .jcs-agent-dna && git pull origin main && cd ..
+git add .jcs-agent-dna && git commit -m "Update jcs-agent-dna"
 ```
 
 Clone a project with submodules:
@@ -82,14 +82,14 @@ If submodules are not available or practical:
 
 ```bash
 #!/bin/bash
-BASE="https://raw.githubusercontent.com/YOURUSER/dotnd/main"
-mkdir -p .dotnd/{constitutional,strategic,tactical}
-curl -sL "$BASE/constitutional/IDENTITY.md" > .dotnd/constitutional/IDENTITY.md
-curl -sL "$BASE/constitutional/VOICE.md" > .dotnd/constitutional/VOICE.md
-curl -sL "$BASE/strategic/SOUL.md" > .dotnd/strategic/SOUL.md
-curl -sL "$BASE/strategic/AGENTS.md" > .dotnd/strategic/AGENTS.md
-curl -sL "$BASE/tactical/CONTEXT.md" > .dotnd/tactical/CONTEXT.md
-curl -sL "$BASE/tactical/CANON.md" > .dotnd/tactical/CANON.md
+BASE="https://raw.githubusercontent.com/YOURUSER/jcs-agent-dna/main"
+mkdir -p .jcs-agent-dna/{constitutional,strategic,tactical}
+curl -sL "$BASE/constitutional/IDENTITY.md" > .jcs-agent-dna/constitutional/IDENTITY.md
+curl -sL "$BASE/constitutional/VOICE.md" > .jcs-agent-dna/constitutional/VOICE.md
+curl -sL "$BASE/strategic/SOUL.md" > .jcs-agent-dna/strategic/SOUL.md
+curl -sL "$BASE/strategic/AGENTS.md" > .jcs-agent-dna/strategic/AGENTS.md
+curl -sL "$BASE/tactical/CONTEXT.md" > .jcs-agent-dna/tactical/CONTEXT.md
+curl -sL "$BASE/tactical/CANON.md" > .jcs-agent-dna/tactical/CANON.md
 ```
 
 ---

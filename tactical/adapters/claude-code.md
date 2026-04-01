@@ -1,5 +1,5 @@
 # Claude Code Adapter
-## How to load dotnd into Claude Code
+## How to load jcs-agent-dna into Claude Code
 
 Claude Code reads CLAUDE.md from the project root and parent
 directories.
@@ -11,8 +11,8 @@ Create ~/.claude/CLAUDE.md with the following content:
 ```
 # Agent Configuration
 
-Read the following files from the .dotnd submodule in this project
-(or from ~/.dotnd/ if no submodule exists) and follow all
+Read the following files from the .jcs-agent-dna submodule in this project
+(or from ~/.jcs-agent-dna/ if no submodule exists) and follow all
 instructions within:
 
 1. constitutional/IDENTITY.md — who Jake is. Do not contradict.
@@ -31,10 +31,10 @@ in the project root.
 
 ### Per-project setup
 
-After adding the dotnd submodule to a project:
+After adding the jcs-agent-dna submodule to a project:
 
 ```bash
-git submodule add https://github.com/YOURUSER/dotnd .dotnd
+git submodule add https://github.com/YOURUSER/jcs-agent-dna .jcs-agent-dna
 ```
 
 Create a project-level CLAUDE.md that references the submodule:
@@ -42,7 +42,7 @@ Create a project-level CLAUDE.md that references the submodule:
 ```
 # Project Agent Configuration
 
-Global agent config: .dotnd/
+Global agent config: .jcs-agent-dna/
 Project-specific context follows.
 
 ## Project: [name]
