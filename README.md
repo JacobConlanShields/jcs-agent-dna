@@ -1,4 +1,4 @@
-# dotnd
+# jcs-agent-dna
 
 Agent configuration files for Jacob Conlan Shields.
 
