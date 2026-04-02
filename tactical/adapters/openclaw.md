@@ -26,9 +26,17 @@ File load order:
 1. .jcs-agent-dna/constitutional/IDENTITY.md
 2. .jcs-agent-dna/constitutional/VOICE.md
 3. .jcs-agent-dna/strategic/SOUL.md
-4. .jcs-agent-dna/strategic/AGENTS.md
-5. .jcs-agent-dna/tactical/CONTEXT.md
-6. .jcs-agent-dna/tactical/CANON.md
+4. .jcs-agent-dna/strategic/MEMORY.md
+5. .jcs-agent-dna/strategic/SPIRIT.md (when populated)
+6. .jcs-agent-dna/strategic/GOALS.md
+7. .jcs-agent-dna/strategic/AGENTS.md
+8. .jcs-agent-dna/strategic/USER.md
+9. .jcs-agent-dna/tactical/PROJECTS.md
+10. .jcs-agent-dna/tactical/CONTEXT.md
+11. .jcs-agent-dna/tactical/CANON.md
+
+Note: MEMORY.md is listed under strategic/ in the load order to
+reflect its reading priority, even though it lives in tactical/.
 
 Project-specific instructions follow below.
 ```

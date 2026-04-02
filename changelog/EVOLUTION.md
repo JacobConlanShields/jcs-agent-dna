@@ -6,6 +6,25 @@ system gets a one-line entry here.
 
 ---
 
+## 2026-04-02
+- TACTICAL: Added PROJECTS.md (operational hub, cross-project
+  linking, notebook queue)
+- STRATEGIC: Added GOALS.md (north star, mission/vision, values)
+- TACTICAL: Replaced MEMORY.md placeholder with full memory
+  architecture (autonomic/somatic model, three encoding filters,
+  Hofstadter loop protocol, conservative forgetting, self-governing
+  overwrite system)
+- GOVERNANCE: Updated CONTRIBUTING.md with MEMORY.md carve-out,
+  GOALS.md to strategic tier listing, PROJECTS.md to tactical tier
+  listing, and rule #1 exception clarification
+- STRATEGIC: Updated USER.md with notebook check-in workflow
+- TACTICAL: Consolidated anti-patterns.md into MEMORY.md
+  anti-pattern register; deleted tactical/patterns/anti-patterns.md
+- TACTICAL: Removed redundant project listings from CONTEXT.md,
+  replaced with pointer to PROJECTS.md
+- ALL ADAPTERS: Updated reading order to include MEMORY.md,
+  GOALS.md, PROJECTS.md
+
 ## 2026-04-01
 - INIT: jcs-agent-dna repo created with constitutional/strategic/tactical
   tier architecture

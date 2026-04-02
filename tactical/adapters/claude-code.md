@@ -18,12 +18,17 @@ instructions within:
 1. constitutional/IDENTITY.md — who Jake is. Do not contradict.
 2. constitutional/VOICE.md — writing style. Match on all outputs.
 3. strategic/SOUL.md — operating philosophy. Internalize.
-4. strategic/AGENTS.md — decision-making and operating rules.
-5. tactical/CONTEXT.md — current projects and constraints.
-6. tactical/CANON.md — intellectual inputs and references.
+4. strategic/MEMORY.md — accumulated memory and anti-pattern register.
+5. strategic/SPIRIT.md — why we build what we build (if populated).
+6. strategic/GOALS.md — north star, mission, values.
+7. strategic/AGENTS.md — decision-making and operating rules.
+8. strategic/USER.md — how to work with Jake (if populated).
+9. tactical/PROJECTS.md — operational hub and project registry.
+10. tactical/CONTEXT.md — current constraints and tool stack.
+11. tactical/CANON.md — intellectual inputs and references.
 
-If strategic/USER.md and strategic/SPIRIT.md exist and are
-populated, read those as well.
+Note: MEMORY.md is listed under strategic/ in the load order to
+reflect its reading priority, even though it lives in tactical/.
 
 For project-specific context, also read any project-context.md
 in the project root.

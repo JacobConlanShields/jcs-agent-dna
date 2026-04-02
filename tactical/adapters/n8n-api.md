@@ -18,8 +18,14 @@ const files = [
   'constitutional/IDENTITY.md',
   'constitutional/VOICE.md',
   'strategic/SOUL.md',
+  'tactical/MEMORY.md',
+  'strategic/SPIRIT.md',
+  'strategic/GOALS.md',
   'strategic/AGENTS.md',
-  'tactical/CONTEXT.md'
+  'strategic/USER.md',
+  'tactical/PROJECTS.md',
+  'tactical/CONTEXT.md',
+  'tactical/CANON.md'
 ];
 
 let systemPrompt = '';
@@ -38,10 +44,13 @@ order if you must trim:
 
 1. IDENTITY.md (constitutional — always load)
 2. AGENTS.md (strategic — operating rules)
-3. CONTEXT.md (tactical — current state)
-4. VOICE.md (constitutional — if generating text output)
-5. SOUL.md (strategic — if agent needs operating philosophy)
-6. CANON.md (tactical — only if intellectual context is relevant)
+3. PROJECTS.md (tactical — current project state)
+4. CONTEXT.md (tactical — constraints and tool stack)
+5. VOICE.md (constitutional — if generating text output)
+6. SOUL.md (strategic — if agent needs operating philosophy)
+7. MEMORY.md (tactical — accumulated memory and anti-patterns)
+8. GOALS.md (strategic — if agent needs north star context)
+9. CANON.md (tactical — only if intellectual context is relevant)
 
 ### Notes
 

@@ -19,11 +19,13 @@ jcs-agent-dna/
 │   ├── SOUL.md            ← Subconscious operating layer
 │   ├── AGENTS.md          ← Decision-making and operating rules
 │   ├── USER.md            ← How to work with me
+│   ├── GOALS.md           ← North star, mission, values
 │   └── SPIRIT.md          ← Why we build what we build
 ├── tactical/              ← Current state. Changes freely.
 │   ├── CONTEXT.md         ← Active projects, tools, timeline
 │   ├── CANON.md           ← Intellectual inputs and references
 │   ├── MEMORY.md          ← Running memory across sessions
+│   ├── PROJECTS.md        ← Operational hub, cross-project links
 │   ├── adapters/          ← Per-agent-framework setup guides
 │   └── patterns/          ← Learned patterns and anti-patterns
 ├── changelog/

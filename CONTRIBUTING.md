@@ -25,7 +25,7 @@ Agents must never file a PR against constitutional files.
 
 ### Strategic (agent-proposes, human-approves)
 Location: `strategic/`
-Contains: SOUL.md, AGENTS.md, USER.md, SPIRIT.md
+Contains: SOUL.md, AGENTS.md, USER.md, SPIRIT.md, GOALS.md
 
 These files define operating philosophy, decision-making rules, and
 working preferences. They evolve slowly and deliberately.
@@ -36,12 +36,22 @@ the format below.
 
 ### Tactical (agent-managed, logged)
 Location: `tactical/`
-Contains: CONTEXT.md, CANON.md, MEMORY.md, adapters/, patterns/
+Contains: CONTEXT.md, CANON.md, MEMORY.md, PROJECTS.md,
+adapters/, patterns/
 
 These files change frequently. Agents may open PRs and self-merge
 tactical changes if the change is additive only (no deletions, no
 modifications to existing content). All changes must be logged in
 `changelog/EVOLUTION.md`.
+
+### Exception: MEMORY.md
+
+MEMORY.md operates under its own governance defined within the
+file itself. Unlike other tactical files, MEMORY.md may overwrite
+existing content as part of its consolidation process. All
+significant changes are tracked in both the MEMORY.md internal
+changelog and EVOLUTION.md. See MEMORY.md for its specific
+governance rules.
 
 ---
 
@@ -62,7 +72,8 @@ Every PR must include:
 ## Rules That Never Bend
 
 1. Never delete content from strategic or constitutional files —
-   only add or modify
+   only add or modify. Exception: MEMORY.md's overwrite protocol
+   is a governed exception defined within that file, not a deletion.
 2. Never change the tier classification of a file
 3. Never remove a constraint without documenting the rationale
    for removal
