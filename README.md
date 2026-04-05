@@ -14,12 +14,14 @@ plain markdown. The structure is designed to survive framework churn.
 jcs-agent-dna/
 ├── constitutional/        ← Who I am. Never changes.
 │   ├── IDENTITY.md        ← Values, aesthetic, philosophy
-│   └── VOICE.md           ← Writing style and tone
+│   ├── VOICE.md           ← Writing style and tone
+│   └── BOUNDARIES.md      ← Hard limits and non-negotiables
 ├── strategic/             ← How agents operate. Changes slowly.
 │   ├── SOUL.md            ← Subconscious operating layer
 │   ├── AGENTS.md          ← Decision-making and operating rules
 │   ├── USER.md            ← How to work with me
 │   ├── GOALS.md           ← North star, mission, values
+│   ├── EPISTEMOLOGY.md    ← How I think and reason
 │   └── SPIRIT.md          ← Why we build what we build
 ├── tactical/              ← Current state. Changes freely.
 │   ├── CONTEXT.md         ← Active projects, tools, timeline

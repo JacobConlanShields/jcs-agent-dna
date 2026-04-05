@@ -1,12 +1,23 @@
 # CANON.md
 ## Intellectual Inputs — Jacob Conlan Shields
+### Tactical Tier
 
-A living record of the books, thinkers, and frameworks that have
-shaped how I think. Not a flex. Not a reading list. These are the
-inputs I have integrated — the ones I find myself returning to,
-quoting from memory, or seeing reflected in my own work.
+---
 
-Update freely. This file changes as I do.
+## What This File Is
+
+CANON.md is the full intellectual library — every book, thinker,
+and framework that has shaped how Jake thinks, continuously
+growing as new sources are integrated. It is the index of inputs.
+It is good for broad context and for creative projects that benefit
+from wide-angle intellectual reference.
+
+SOUL.md contains the distillation — the operating implications
+of these sources, synthesized into how the agent actually runs.
+Where CANON.md is comprehensive, SOUL.md is essential. If CANON.md
+influences, SOUL.md governs.
+
+Update freely. This file grows continuously.
 
 ---
 
@@ -14,164 +25,198 @@ Update freely. This file changes as I do.
 
 **Zen and the Art of Motorcycle Maintenance** — Robert Pirsig
 Quality as a living force. The knife that divides subject from
-object. Caring about what you do is itself a philosophy. Core text.
+object. Caring about what you do is itself a philosophy. The
+standard: does this have quality? If you have to ask, it probably
+doesn't. Core text. Non-negotiable reference.
 
-**Antifragile** — Nassim Taleb
+**Antifragile / The Black Swan / Fooled by Randomness
+/ Skin in the Game** — Nassim Taleb
 Systems that gain from disorder. Via Negativa: define by removing,
-not adding. Optionality. The barbell. Skin in the game. See also:
-The Black Swan, Fooled by Randomness.
+not adding. Optionality. The barbell. The distinction between risk
+(knowable distribution) and uncertainty (unknowable distribution)
+is foundational. Never optimize for the average; protect the tail.
+Skin in the game: alignment requires exposure to consequences.
 
 **The Art of Learning** — Josh Waitzkin
 Deep practice. Pattern compression. Building from the bottom of a
-skill upward. The investment in loss. Directly applicable to martial
-arts, craft, and everything else.
+skill upward. The investment in loss. Learning to learn is the
+meta-skill. Beginner's mind as competitive advantage at advanced
+levels.
 
-**Denial of Death** — Ernest Becker
-The terror beneath human striving. Art as the answer to mortality.
-Immortality projects. Difficult. Necessary.
+**The Goal / It's Not Luck / Critical Chain** — Eliyahu Goldratt
+The constraint governs throughput. Subordinate everything to the
+constraint. The Evaporating Cloud as a tool for dissolving
+conflicts by invalidating assumptions — not by compromising. One
+root cause, never a list. The five focusing steps.
 
-**The Goal** — Eliyahu Goldratt
-Theory of Constraints. The system is only as fast as its slowest
-part. Find the bottleneck, break it, repeat. Applied thinking that
-transfers everywhere. See also: It's Not Luck, Critical Chain.
+**Causality: Models, Reasoning and Inference /
+The Book of Why** — Judea Pearl
+The Ladder of Causation: association (seeing), intervention
+(doing), counterfactual (imagining). The do-calculus. Bayesian
+networks as probabilistic graphical models. The fundamental
+distinction between correlation and causation. Central to how
+this system reasons about decisions under uncertainty.
 
-**The Brain That Changes Itself** — Norman Doidge
-Neuroplasticity. What is practiced becomes structural. What is
-abandoned atrophies. The brain is not fixed.
+**Gödel, Escher, Bach: An Eternal Golden Braid /
+I Am a Strange Loop** — Douglas Hofstadter
+Strange loops: hierarchical systems where moving through levels
+returns you to where you started. Emergent intelligence from
+simple local rules. The self as pattern, not substrate. Gödel's
+incompleteness: any sufficiently powerful system will encounter
+truths it cannot prove from within itself. The fugue as model
+for multi-voice coherent systems.
 
-**Increasing Human Energy** — Nikola Tesla
-Energy as the fundamental variable. Read as philosophy, not physics.
-Tesla's framing of the human race as a system is the origin of how
-I think about impact at scale.
+**How to Measure Anything** — Douglas Hubbard
+Measurement is reduction of uncertainty, not elimination. EVPI
+as ceiling on what should be spent to reduce uncertainty. First
+observations deliver most value. High/medium/low risk labels
+are not measurements. Fermi decomposition. Calibrated probability
+assessment. Applied Information Economics methodology.
 
-**Factotum** — Charles Bukowski
-Work, drift, and low-rent dignity. Staying alive while making
-something. The tone I return to when I need to strip back down.
+**$100M Offers / $100M Leads / $100M Money Models** — Alex Hormozi
+The value equation. Three-stage scaling sequence: prove the model,
+add leverage, build continuity. Perfect one stage before touching
+the next. The flywheel condition. Master one revenue source before
+diversification. The business is the proof of its own system.
 
-**Run** — George Sheehan
-The body as a philosophical instrument. Physical effort as a way
-of thinking.
+**Crossing the Chasm** — Geoffrey Moore
+The technology adoption lifecycle. The chasm between early
+adopters and early majority is discontinuous — you cannot slide
+across, you must jump. The beachhead strategy: one niche, win it
+completely, then adjacent niches. The whole product requirement.
+The bowling pin model. Fat-tail distribution of outcomes — the
+mainstream is where the value concentrates.
 
-**Rise of Superman** — Steven Kotler
-Flow states as the engine of peak performance. The conditions that
-produce them. The risk/reward relationship with flow.
+**Traction / What the Heck Is EOS?** — Gino Wickman
+The Vision/Traction Organizer cascade: long-term target → 3-year
+picture → 1-year plan → quarterly Rocks. Rocks as the 3-7 most
+important priorities for the next 90 days. 90 days is about as
+long as a human can stay focused before urgency fades.
 
-**The Power of Now** — Eckhart Tolle
-Presence as the only place anything actually happens.
+**The 12-Week Year** — Brian Moran
+Annual thinking creates procrastination. Compress the year into
+12 weeks. Every period is a complete year with its own deadline.
+Lead indicators (actions you control in real time) over lag
+indicators (outcomes that record history).
 
-**The Secret of the Ages** — Robert Collier
-The universal mind. Thought as creative force.
+**Vivid Vision** — Cameron Herold
+Write a 3-year present-tense narrative describing exactly what
+your life and work looks like. Specific enough to function as a
+decision filter. Ambiguity is the enemy of autonomous execution.
+A vivid enough vision creates alignment without constant
+consultation.
 
-**Consilience** — E.O. Wilson
-The unity of knowledge. The case for synthesis across disciplines.
-The framework that names what I already do.
+**Getting Things Done** — David Allen
+Your brain is for having ideas, not storing them. Every open loop
+occupies working memory whether you're thinking about it or not.
+Trusted external system. Clarify next actions, not projects.
+Weekly Review as maintenance protocol. Mind like water.
 
-**$100M Offers** — Alex Hormozi
-Value creation and offer structure. Practical counterweight to the
-philosophical material.
+**The Organized Mind** — Daniel Levitin
+Working memory holds approximately 4 chunks. Decision fatigue is
+real and cumulative. The default mode network requires protection
+— it is where consolidation and insight happen. The well-organized
+external system is a cognitive prosthetic, not a luxury.
+Categorization reduces retrieval time.
 
-**Principles** — Ray Dalio
-Systematizing decision-making. If you can write down how you think,
-you can improve how you think.
+**The 4-Hour Workweek** — Tim Ferriss
+80/20 applied aggressively: identify the 20% and eliminate the
+80%. Parkinson's Law: work expands to fill time allotted. The
+E-A-D framework: Eliminate first, Automate second, Delegate third.
+The decision gate: give authority to resolve any issue solvable
+below a cost threshold — eliminates management overhead for the
+vast majority of cases. Freedom as structural design goal.
 
-**Before and Laughter** — Jimmy Carr
-The mechanics of intentional creative excellence. Fame vs celebrity.
-Known for what you build, not who you are. Build forever.
+**Venture Deals / Startup Communities** — Brad Feld
+The investor/founder dynamic as governance model. Shared documents
+replace constant check-ins. The marathon mindset. Sustainable
+pace over sprint. Long-game architecture. The flywheel of
+community-driven growth.
 
-**Thinking Fast and Slow** — Daniel Kahneman
-System 1 and System 2. Where intuition works and where it fails.
-The errors that deliberate reasoning makes and the ones it corrects.
+**Mastery / 48 Laws of Power /
+33 Strategies of War / Laws of Human Nature** — Robert Greene
+The primal inclination: a deep natural interest marks the
+direction of authentic mastery. Apprenticeship model: absorb
+existing knowledge completely before attempting to improve it.
+Strategy is about shaping the terrain before the engagement.
+Social intelligence as defensive and offensive capability.
+Mastery requires time — it cannot be rushed, only sustained.
 
-**Zero to One** — Peter Thiel
-True creativity is something genuinely new, not an iteration.
-The difference between going from zero to one and from one to n.
+**The Science of Self-Discipline** series — Peter Hollins
+Discipline is architectural, not motivational. Reduce friction
+for desired behaviors. Increase friction for undesired behaviors.
+The three durable motivators: independence, excellence, service.
+Motivation is fleeting; discipline is structural. Neuro-habits
+over willpower.
 
-**The Dave Ramsey Baby Steps** — Dave Ramsey
-Not for the math — for the psychology. Systems built with human
-momentum in mind outperform systems built for optimal efficiency
-alone. Pay the smallest debt first, not the highest interest rate,
-because early wins sustain the behavior that produces late wins.
-I build this into everything.
-
-**Essentialism** — Greg McKeown
-The disciplined pursuit of less. Saying no as a creative act.
-
-**Lean Startup** — Eric Ries
-Minimum viable product. Test before you build. Maintain a
-beginner's approach to grow fastest.
-
-**Building a Second Brain** — Tiago Forte
-External knowledge systems. PARA. Making your thinking legible
-to yourself over time.
-
-**The Great Mental Models** — Shane Parrish
-Latticework thinking. Cross-domain mental models as the substrate
-of good decisions.
-
-**Mindset** — Carol Dweck
-Growth mindset as the prerequisite for recursive self-improvement.
-Ability is not fixed. Systems improve themselves if the mindset
-allows it.
-
-**From Bacteria to Bach and Back** — Daniel Dennett
-Consciousness as an evolved system. How intelligence bootstraps
-itself from simpler processes. Relevant to agent design and to
-understanding what learning actually is.
-
----
-
-## Thinkers
-
-**Nassim Taleb** — antifragility, via negativa, optionality,
-epistemic humility, Bayesian risk
-
-**Shane Parrish** — mental models, latticework thinking, decision
-quality
-
-**Tiago Forte** — second brain, PARA, external knowledge systems
-
-**Alex Hormozi** — value creation, offer structure, directness
-
-**Ray Dalio** — systematized principles, radical transparency
-
-**William James** — pragmatism. Truth as what works. Belief as
-something you try on.
-
-**Nate Silver** — probabilistic forecasting. Distinguishing signal
-from noise. Updating on evidence.
-
-**Jimmy Carr** — intentional creative career design. Fame as
-byproduct of building.
+**Measure What Matters** — John Doerr
+Objectives and Key Results. Objectives are qualitative direction-
+setters. Key Results are measurable, specific, time-bound.
+Outcomes over activities. Transparency: all OKRs visible. Stretch
+goals over sandbagged ones.
 
 ---
 
-## Practitioners (Physical and Craft)
+## Thinkers (Integrated)
 
-**Phil Daru** — combat sports physical preparation
-**Andy Galpin** — exercise science, performance
-**Ben Patrick (ATG)** — structural integrity, knees over toes
-**MovNat** — natural movement as the baseline
-**Foundation Training** — posterior chain, structural function
-**Charles Poliquin** — strength principles, individualization
-**Marty Gallagher** — powerlifting culture, periodization
-**Tom Myers (Anatomy Trains)** — fascial lines, whole-body patterns
+**Nassim Taleb** — antifragility, fat tails, via negativa, skin
+in the game, the risk/uncertainty distinction. Primary lens for
+unknown unknowns and system robustness.
+
+**Judea Pearl** — causal inference, Bayesian networks, the Ladder
+of Causation. Primary lens for known unknowns and intervention
+reasoning.
+
+**Douglas Hofstadter** — strange loops, emergent intelligence,
+Gödel applied to self-referential systems. Theoretical foundation
+for why the system can safely self-modify within defined limits.
+
+**Eliyahu Goldratt** — Theory of Constraints. The constraint
+governs. Subordinate everything. One root cause, never a list.
+
+**Alex Hormozi** — value creation, scaling sequence, offer design,
+flywheel architecture. Primary framework for revenue growth.
+
+**Geoffrey Moore** — technology adoption lifecycle, chasm dynamics,
+beachhead strategy. Primary framework for market penetration.
+
+**Robert Pirsig** — Quality as primary. The metaphysics of caring.
+Central to creative work and output standards.
+
+**Josh Waitzkin** — deliberate practice, pattern compression, the
+investment in loss, beginner's mind at advanced levels.
+
+**Tim Ferriss** — elimination before optimization, freedom as
+structural design, decision gate principle, E-A-D framework.
+
+**Douglas Hubbard** — measurement as uncertainty reduction, EVPI,
+calibrated probability assessment, Applied Information Economics.
+
+**Daniel Levitin** — cognitive load, working memory limits,
+externalizing as intelligence amplification.
+
+**Robert Greene** — mastery arc, primal inclination, apprenticeship
+model, strategic terrain-shaping, social intelligence.
+
+**Brad Feld** — governance by document, marathon mindset,
+community flywheel.
 
 ---
 
-## Films
+## Canon Under Development
 
-**Good Will Hunting** — the scene where Will dismantles Sean's
-bookshelf. Integrated knowledge versus performed knowledge.
-Will didn't collect books. He absorbed them. The difference is
-everything.
+Engaged with but not yet fully integrated:
 
----
-
-## Notes
-
-This list reflects inputs, not conclusions. I do not agree with
-everything in every book or endorse every person on this list.
-I take what is useful and leave what is not.
-
-The goal of this file is to make my thinking legible — to myself,
-and to any system working on my behalf.
+- Building a Second Brain — Tiago Forte
+- The Lean Startup — Eric Ries
+- Systemology — David Jenyns
+- Essentialism — Greg McKeown
+- Thinking, Fast and Slow — Daniel Kahneman
+- Principles — Ray Dalio
+- Zero to One — Peter Thiel
+- The Great Mental Models — Shane Parrish
+- From Bacteria to Bach and Back — Daniel Dennett
+- Surfaces and Essences — Hofstadter & Sander
+- The Inner Game of Tennis — W. Timothy Gallwey
+- Dave Ramsey (psychology of financial discipline)
+- Nate Silver (probabilistic reasoning applied to prediction)
