@@ -82,8 +82,16 @@ Update as tools are added, changed, or removed.
   (routine flags, weekly summaries, fire escalations)
 - See Escalation Path section for channel breakdown
 
-**GitHub**
-- Repo: https://github.com/JacobConlanShields/jcs-agent-dna
+**GitHub — jcs-project-management**
+- Repo: https://github.com/JacobConlanShields/jcs-project-managment
+- Status: Active (private)
+- Used for: Master task list across all projects. GitHub Issues
+  as task tracker. Labels for project, tier, human/agent/either,
+  leverage score. n8n reads this repo weekly to build the
+  check-in summary and writes to it when pipeline stopping
+  points are identified.
+
+**GitHub — jcs-agent-dna**
 - Status: Active
 - Used for: Agent constitution (.md files), version
   control for all agent system changes
@@ -187,7 +195,8 @@ Agents should load files in this sequence at session start:
 9. tactical/MEMORY.md
 10. tactical/PROJECTS.md
 11. tactical/CONTEXT.md (this file)
-12. tactical/CANON.md (load if creative work is involved)
+12. tactical/CHECKIN.md (load for check-in sessions)
+13. tactical/CANON.md (load if creative work is involved)
 13. Project-specific files as needed
 
 Constitutional files first. Strategic before tactical.

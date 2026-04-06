@@ -20,9 +20,16 @@ Format:
 
 ```
 [YYYY-MM-DD] [FILE] [TIER] [DESCRIPTION]
-Rationale: [why this changed]
-Risk: [what could go wrong]
+Why: [the reasoning behind choosing this path — what was
+     considered, what was rejected, and why this won]
+Risk: [what could go wrong if this decision is wrong]
 ```
+
+The Why field is mandatory. A changelog without reasoning is
+a historical artifact, not a learning system. Why captures the
+assumptions made and alternatives rejected — so future agents
+and future Jake understand not just what the system looks like
+but how it got there.
 
 Tier codes: CONSTITUTIONAL / STRATEGIC / TACTICAL
 
@@ -91,9 +98,48 @@ Allen, Levitin, Ferriss, Feld, Greene, Hollins, Doerr as
 integrated entries. Added Canon Under Development section.
 Added SOUL vs CANON distinction statement.
 
----
+[2026-04-04] [AGENTS.md] [STRATEGIC] Added Anxiety Protocol section.
+Why: Forward simulation existed in the decision protocol but had no
+explicit scaling mechanism or output quality gate. The anxiety
+metaphor captures the right intuition — importance × timeliness
+scales simulation depth, tail risks are checked for both
+catastrophic weirdness and uncanny valley. Rejected embedding this
+in BOUNDARIES.md (it's a process, not an authority rule) and in
+EPISTEMOLOGY.md (it's operational, not philosophical).
+Risk: Simulation depth calibration is subjective. If the agent
+over-simulates Tier 1 decisions, it consumes budget without
+producing value. Mitigated by explicit tier-based depth cap.
 
-## Part II — Decision Log
+[2026-04-04] [EVOLUTION.md] [TACTICAL] Added Why field to changelog
+format. Added Part III — Weekly Check-in Intake Log.
+Why: Changelog without reasoning is a historical artifact. The Why
+field is what makes EVOLUTION.md a learning document rather than
+just a ledger. Intake log needed its own section separate from
+decision log — different data shape, different purpose.
+Risk: Why field adds friction to changelog entries. Mitigated by
+keeping the format lightweight — reasoning, not justification.
+
+[2026-04-04] [CHECKIN.md] [TACTICAL] Created from scratch.
+Why: Weekly check-in protocol was described in AGENTS.md conceptually
+but had no operational specification. The three flows, the four
+steps, the task label system, the KPI format, and the connectivity
+protocol for Peace Corps all needed a dedicated home. EVOLUTION.md
+is the right place for logs; AGENTS.md is the right place for
+principles; CHECKIN.md is the right place for the operational
+procedure.
+Risk: Tactical file, will evolve as the check-in system matures.
+First version is intentionally lightweight — add complexity only
+when the simple version proves insufficient.
+
+[2026-04-04] [CONTEXT.md] [TACTICAL] Added jcs-project-management
+repo to tool stack. Added CHECKIN.md to file load order.
+Why: Task management repo was created but not documented. Without
+documentation it doesn't exist from an agent's perspective.
+Risk: Repo URL has a typo in the name (managment vs management).
+Documented as-is — changing the repo name would break any existing
+references.
+
+
 
 Every uncertain decision above Tier 1 gets logged here. The log
 is the raw material for pattern detection and eventual rule updates.
@@ -118,6 +164,37 @@ Pattern candidate: [yes/no]
 ---
 
 <!-- decision log entries appended below this line -->
+
+---
+
+## Part III — Weekly Check-in Intake Log
+
+Every weekly check-in produces a record here. Historical log of
+what Jake submitted, how it was classified, and what it became.
+Append-only. The intake log is what allows the system to trace
+how ideas from Jake's notebooks became tasks, file updates, or
+new projects over time.
+
+**Format:**
+
+```
+[YYYY-MM-DD] CHECKIN-[N]
+Submitted: [items Jake submitted this week, with type:
+            note/sketch/voice/report/photo/other]
+Classified:
+  → [item]: [destination — task/md-update/new-project/
+              canon-addition/philosophy/deferred]
+  → [item]: [destination]
+Ambiguities resolved: [any Jake corrected during check-in]
+Tasks assigned to Jake: [list from jcs-project-management]
+Tasks assigned to agent: [list]
+Either/or resolved: [item → Jake/agent, brief rationale]
+KPIs: [key metrics from active projects this week]
+```
+
+---
+
+<!-- weekly check-in entries appended below this line -->
 
 ---
 

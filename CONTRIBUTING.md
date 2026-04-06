@@ -36,7 +36,7 @@ the format below.
 
 ### Tactical (agent-managed, logged)
 Location: `tactical/`
-Contains: CONTEXT.md, CANON.md, MEMORY.md, PROJECTS.md,
+Contains: CONTEXT.md, CANON.md, MEMORY.md, PROJECTS.md, CHECKIN.md,
 adapters/, patterns/
 
 These files change frequently. Agents may open PRs and self-merge

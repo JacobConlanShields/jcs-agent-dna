@@ -27,6 +27,7 @@ jcs-agent-dna/
 │   ├── CONTEXT.md         ← Active projects, tools, timeline
 │   ├── CANON.md           ← Intellectual inputs and references
 │   ├── MEMORY.md          ← Running memory across sessions
+│   ├── CHECKIN.md         ← Weekly check-in operational spec
 │   ├── PROJECTS.md        ← Operational hub, cross-project links
 │   ├── adapters/          ← Per-agent-framework setup guides
 │   └── patterns/          ← Learned patterns and anti-patterns
